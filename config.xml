@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/3.0"
+        id = "com.haltingproblem.pedaleros"
+        version = "3.0.0">
+    <name>Pedaleros</name>
+    <description>
+        Si amas la bicicleta amarás esta aplicación.
+    </description>
+    <author href="https://www.facebook.com/Seba.MezaS" email="tan.meza@gmail.com" >
+        HaltingProblem Team
+    </author>
+    <gap:platforms>
+        <gap:platform name="android" minVersion="2.1" />
+		<gap:platform name="ios" />
+    </gap:platforms>
+    <icon src="images/icon.png" gap:role="default"/>
+
+	<gap:splash gap:density="hdpi" gap:platform="android" src="images/spl-ver.png" />
+	<gap:splash gap:density="xhdpi" gap:platform="android" src="images/spl-hor.png" />
+	<gap:splash gap:platform="winphone" src="images/spl-ver.png" />
+	<gap:splash gap:platform="ios" src="images/spl-ver.png" width="320" height="480" />
+	<gap:splash gap:platform="ios" src="images/spl-hor.png" width="480" height="320" />
+	
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+</widget>
+
+
